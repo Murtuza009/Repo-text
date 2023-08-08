@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKZpxw-B2fWWxxxZ32QC4xXiGuVuqnv4xFm-KFuVscA3WeqAeQ_CZALwn0a_mD8C4KfUo&usqp=CAU");
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 50px 25px;
+}
+header {
+    width: 100%;
+    min-height: 300px;
+    border: 1px solid #000;
+    background: linear-gradient(15deg, #5F9EA0, #2F4F4F);
+    padding: 30px 20px;
+    border-radius: 10px;
+    border-style: none;
+    color: #7FFFD4;
+    /* margin: 0 auto; */
+}
+header .box {
+    font-weight: 600;
+    font-size: 1em;
+    letter-spacing: 1px;
+    border: 1px solid #000;
+    width: 5%;
+    text-align: center;
+    padding: 5px 10px;
+    background-color: #2E8B57;
+    border-style: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+header .text {
+    width: 100%;
+}
+header .text h1 {
+    font-weight: 700;
+    letter-spacing: 4px;
+    margin-bottom: 15px;
+}
+header .icon-textA {
+    position: relative;
+    margin-bottom: 10px;
+}
+header .icon-textA .text {
+    position: absolute;
+    top: 0;
+    left: 30px;
+    width: 10%;
+    letter-spacing: 2px;
+    /* height: 50px; */
+}
+header .icon-textB {
+    position: relative;
+    /* margin-bottom: 10px; */
+}
+header .icon-textB .text {
+    position: absolute;
+    top: 0;
+    left: 30px;
+    width: 50%;
+    letter-spacing: 2px;
+}
+.text-margin {
+    margin-top: 15px;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+.box-flex {
+    display: flex;
+    /* justify-content: space-evenly; */
+    align-items: center;
+    width: 100%;
+    gap: 5px;
+    cursor: pointer;
+}
+header .box-flex .box-html {
+    border: 2px solid #7FFFD4;
+    border-radius: 2px;
+    padding: 0 10px;
+}
+header .box-flex .box-css {
+    border: 2px solid #7FFFD4;
+    border-radius: 2px;
+    padding: 0 10px;
+}
+header .box-flex .box-javaScript {
+    border: 2px solid #7FFFD4;
+    border-radius: 2px;
+    padding: 0 10px;
+}
+header .box-flex .box-web {
+    border: 2px solid #7FFFD4;
+    border-radius: 2px;
+    padding: 0 10px;
+}
+header .box-flex .box-website {
+    border: 2px solid #7FFFD4;
+    border-radius: 2px;
+    padding: 0 10px;
+}
+header .box-flex p {
+    font-weight: 500;
+}
+content .circle-flex {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 50px;
+    text-align: center;
+    color: #fff;
+}
+.circle-flex .circle-A {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 2px solid #000;
+    border-style: none;
+    background: linear-gradient(20deg, #2F4F4F, #696969);
+    padding: 30px 0;
+}
+.circle-flex .circle-B {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 2px solid #000;
+    border-style: none;
+    background: linear-gradient(20deg, #2F4F4F, #696969);
+    padding: 30px 0;
+}
+.circle-flex .circle-C {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 2px solid #000;
+    border-style: none;
+    background: linear-gradient(20deg, #2F4F4F, #696969);
+    padding: 30px 0;
+}
+.circle-flex h5 {
+    font-weight: 700;
+    color: #0a0a28;
+    margin-bottom: 5px;
+}
+.circle-flex p {
+    letter-spacing: 0.1px;
+    font-weight: 400;
+}
+footer .footer {
+    width: 100%;
+    height: 10vh;
+    background-color: #90EE90;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 80px;
+}
+footer .img-box {
+    position: relative;
+    width: 50%;
+}
+footer .img-box img {
+    height: 100px;
+    width: 150px;
+    /* position: absolute;
+    top: 5px; */
+}
+footer .text-box {
+    border: 1px solid #000;
+    border-radius: 5px;
+    border-style: none;
+    background: linear-gradient(15deg, #5F9EA0, #2F4F4F);
+    padding: 10px 40px;
+}
+footer .text-box p {
+    color: #fff;
+    font-weight: 500;
+    letter-spacing: 1px;
+    cursor: pointer;
+    font-size: 1em;
+}
+/* footer .background {
+    height: 50px;
+    width: 100%;
+    background-color: #90EE90;
+} */
