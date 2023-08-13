@@ -1,7 +1,12 @@
-* {
+html{
+    box-sizing: border-box;
+}
+*,*::before,*::after {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: inherit;
+    border: none;
+    outline: none;
 }
 body {
     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKZpxw-B2fWWxxxZ32QC4xXiGuVuqnv4xFm-KFuVscA3WeqAeQ_CZALwn0a_mD8C4KfUo&usqp=CAU");
@@ -23,12 +28,12 @@ header .box {
     font-weight: 600;
     font-size: 1em;
     letter-spacing: 1px;
-    border: 1px solid #000;
+    border: 1px solid #2E8B57;
     width: 5%;
     text-align: center;
     padding: 5px 10px;
     background-color: #2E8B57;
-    border-style: none;
+    /* border-style: none; */
     border-radius: 5px;
     cursor: pointer;
 }
@@ -158,9 +163,8 @@ footer .footer {
     margin-top: 80px;
 }
 footer .img-box {
-    position: relative;
-    width: 50%;
-}
+    /* position: relative; */
+    width: 50%;}
 footer .img-box img {
     height: 100px;
     width: 150px;
@@ -168,7 +172,7 @@ footer .img-box img {
     top: 5px; */
 }
 footer .text-box {
-    border: 1px solid #000;
+    border: 1px solid rgba(255, 255, 255, 0.13);
     border-radius: 5px;
     border-style: none;
     background: linear-gradient(15deg, #5F9EA0, #2F4F4F);
@@ -186,3 +190,52 @@ footer .text-box p {
     width: 100%;
     background-color: #90EE90;
 } */
+
+@media(min-width:200px) and (max-width:400px) {
+    header .box{
+        width: 60px;
+    }
+    .box-flex{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .circle-flex{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    header{
+        width: 250px;
+    }
+    footer .footer{
+        width: 350px;
+        
+    }
+    footer .img-box img{
+        width: 100px;
+        height: 100px;
+    }
+    .footer .text-box{
+        padding: 5px 10px;
+        margin-right: 10px;
+    }
+    .footer .text-box p{
+        font-size: 10px;
+        text-align: center;
+    }
+}
+@media(min-width:400px) and (max-width:1200px) {
+    header .box{
+        width: 100px;
+    }
+    .box-flex{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .circle-flex{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5px;
+    }
+} 
+
